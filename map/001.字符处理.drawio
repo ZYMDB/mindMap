@@ -1,18 +1,20 @@
-<mxfile host="app.diagrams.net" modified="2022-11-27T11:23:55.086Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.56" etag="ySfB63lbxwpYlyj_NJ_c" version="20.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-27T11:50:12.000Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.56" etag="KWGCzEm84PUPWzs4L4Gh" version="20.6.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1422" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="813" dy="431" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="cL1KN3lu_xGNWIJt1N6J-5" value="字符处理" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;html=1;rounded=1;shadow=0;glass=0;sketch=0;fontSize=11;fontColor=#0000FF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="30" y="20" width="480" height="800" as="geometry" />
-        </mxCell>
-        <mxCell id="cL1KN3lu_xGNWIJt1N6J-6" value="任务 001 - 断句" style="swimlane;startSize=20;horizontal=0;html=1;rounded=1;shadow=0;glass=0;sketch=0;fontSize=11;fontColor=#0000FF;" vertex="1" parent="cL1KN3lu_xGNWIJt1N6J-5">
-          <mxGeometry y="20" width="480" height="380" as="geometry">
-            <mxRectangle y="20" width="480" height="30" as="alternateBounds" />
+        <mxCell id="cL1KN3lu_xGNWIJt1N6J-5" value="字符处理" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;html=1;rounded=1;shadow=0;glass=0;sketch=0;fontSize=11;fontColor=#0000FF;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="30" y="20" width="480" height="260" as="geometry">
+            <mxRectangle x="30" y="20" width="90" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cL1KN3lu_xGNWIJt1N6J-2" value="&lt;h1 style=&quot;font-size: 18px;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;任务001- 断句&lt;/font&gt;&lt;/h1&gt;&lt;div&gt;&lt;ol&gt;&lt;li&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;断句的目的：一个短句，相较于一个复句，结构更简单，更容易缕清其涵义&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;数据结构：选择用list集合存储结果集，因为list是顺序数据结构，且有丰富的API&lt;/font&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;&lt;br&gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=1;glass=0;shadow=0;sketch=0;" vertex="1" parent="cL1KN3lu_xGNWIJt1N6J-6">
+        <mxCell id="cL1KN3lu_xGNWIJt1N6J-6" value="任务 001 - 断句" style="swimlane;startSize=20;horizontal=0;html=1;rounded=1;shadow=0;glass=0;sketch=0;fontSize=11;fontColor=#0000FF;" parent="cL1KN3lu_xGNWIJt1N6J-5" vertex="1" collapsed="1">
+          <mxGeometry y="20" width="480" height="30" as="geometry">
+            <mxRectangle y="20" width="480" height="380" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cL1KN3lu_xGNWIJt1N6J-2" value="&lt;h1 style=&quot;font-size: 18px;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;任务001- 断句&lt;/font&gt;&lt;/h1&gt;&lt;div&gt;&lt;ol&gt;&lt;li&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;断句的目的：一个短句，相较于一个复句，结构更简单，更容易缕清其涵义&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;数据结构：选择用list集合存储结果集，因为list是顺序数据结构，且有丰富的API&lt;/font&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;&lt;br&gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=1;glass=0;shadow=0;sketch=0;" parent="cL1KN3lu_xGNWIJt1N6J-6" vertex="1">
           <mxGeometry x="40" y="10" width="420" height="100" as="geometry" />
         </mxCell>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-3" value="来了一段话" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="cL1KN3lu_xGNWIJt1N6J-6" vertex="1">
@@ -38,7 +40,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cL1KN3lu_xGNWIJt1N6J-1" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="cL1KN3lu_xGNWIJt1N6J-6" target="WIyWlLk6GJQsqaUBKTNV-6">
+        <mxCell id="cL1KN3lu_xGNWIJt1N6J-1" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="cL1KN3lu_xGNWIJt1N6J-6" target="WIyWlLk6GJQsqaUBKTNV-6" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="165" y="350" as="sourcePoint" />
             <mxPoint x="80" y="190" as="targetPoint" />
@@ -48,17 +50,27 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="cL1KN3lu_xGNWIJt1N6J-4" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/music-player-controls-3/100/music_repeat_loop_again_circle_arrow_blue-128.png;rounded=1;shadow=0;glass=0;sketch=0;fontSize=11;fontColor=#0000FF;" vertex="1" parent="cL1KN3lu_xGNWIJt1N6J-6">
+        <mxCell id="cL1KN3lu_xGNWIJt1N6J-4" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/music-player-controls-3/100/music_repeat_loop_again_circle_arrow_blue-128.png;rounded=1;shadow=0;glass=0;sketch=0;fontSize=11;fontColor=#0000FF;" parent="cL1KN3lu_xGNWIJt1N6J-6" vertex="1">
           <mxGeometry x="110" y="265" width="70" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="cL1KN3lu_xGNWIJt1N6J-0" value="以&lt;b&gt;&lt;font color=&quot;#0000ff&quot;&gt;标点&lt;/font&gt;&lt;/b&gt;为切分标识构成换行段" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="cL1KN3lu_xGNWIJt1N6J-6">
+        <mxCell id="cL1KN3lu_xGNWIJt1N6J-0" value="以&lt;b&gt;&lt;font color=&quot;#0000ff&quot;&gt;标点&lt;/font&gt;&lt;/b&gt;为切分标识构成换行段" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="cL1KN3lu_xGNWIJt1N6J-6" vertex="1">
           <mxGeometry x="167.5" y="330" width="105" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="cL1KN3lu_xGNWIJt1N6J-7" value="任务 002 - 替换字符" style="swimlane;startSize=20;horizontal=0;html=1;rounded=1;shadow=0;glass=0;sketch=0;fontSize=11;fontColor=#0000FF;" vertex="1" parent="cL1KN3lu_xGNWIJt1N6J-5">
-          <mxGeometry y="400" width="480" height="180" as="geometry" />
+        <mxCell id="cL1KN3lu_xGNWIJt1N6J-7" value="任务 002 - 替换字符" style="swimlane;startSize=20;horizontal=0;html=1;rounded=1;shadow=0;glass=0;sketch=0;fontSize=11;fontColor=#0000FF;" parent="cL1KN3lu_xGNWIJt1N6J-5" vertex="1">
+          <mxGeometry y="50" width="480" height="180" as="geometry">
+            <mxRectangle y="50" width="480" height="30" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="cL1KN3lu_xGNWIJt1N6J-8" value="任务 003 - 删除字符" style="swimlane;startSize=20;horizontal=0;html=1;rounded=1;shadow=0;glass=0;sketch=0;fontSize=11;fontColor=#0000FF;" vertex="1" parent="cL1KN3lu_xGNWIJt1N6J-5">
-          <mxGeometry y="580" width="480" height="220" as="geometry" />
+        <mxCell id="RoXbnylZe7aFuDIxk-WG-0" value="&lt;span style=&quot;background-color: rgb(230, 208, 222);&quot;&gt;&lt;span style=&quot;box-sizing: border-box; font-family: &amp;quot;JetBrains Mono&amp;quot;, &amp;quot;Fira Code&amp;quot;, &amp;quot;Cascadia Code&amp;quot;, Menlo, &amp;quot;Ubuntu Mono&amp;quot;, Consolas, HYZhengYuan; orphans: 4; text-align: start;&quot; class=&quot;md-pair-s md-expand&quot; spellcheck=&quot;false&quot;&gt;&lt;code style=&quot;box-sizing: border-box; font-family: var(--monospace); vertical-align: initial; margin: 0px 2px;&quot;&gt;&lt;b&gt;&lt;font color=&quot;#7f00ff&quot;&gt;([^，它他他\n]+)(作为)([^，。\n]+)&lt;/font&gt;&lt;/b&gt;&lt;/code&gt;&lt;/span&gt;&lt;span style=&quot;box-sizing: border-box; font-family: &amp;quot;JetBrains Mono&amp;quot;, &amp;quot;Fira Code&amp;quot;, &amp;quot;Cascadia Code&amp;quot;, Menlo, &amp;quot;Ubuntu Mono&amp;quot;, Consolas, HYZhengYuan; orphans: 4; text-align: start;&quot; class=&quot;md-plain&quot;&gt;---&amp;gt;&lt;/span&gt;&lt;span style=&quot;box-sizing: border-box; font-family: &amp;quot;JetBrains Mono&amp;quot;, &amp;quot;Fira Code&amp;quot;, &amp;quot;Cascadia Code&amp;quot;, Menlo, &amp;quot;Ubuntu Mono&amp;quot;, Consolas, HYZhengYuan; orphans: 4; text-align: start;&quot; class=&quot;md-pair-s md-expand&quot; spellcheck=&quot;false&quot;&gt;&lt;code style=&quot;box-sizing: border-box; font-family: var(--monospace); vertical-align: initial; margin: 0px 2px;&quot;&gt;&lt;font color=&quot;#7f00ff&quot;&gt;&lt;b&gt;$3$1&lt;/b&gt;&lt;/font&gt;&lt;/code&gt;&lt;/span&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="cL1KN3lu_xGNWIJt1N6J-7">
+          <mxGeometry x="30" y="20" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RoXbnylZe7aFuDIxk-WG-1" value="&lt;b&gt;清除间断词&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#7F00FF;labelBackgroundColor=#E6D0DE;" vertex="1" parent="cL1KN3lu_xGNWIJt1N6J-7">
+          <mxGeometry x="30" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cL1KN3lu_xGNWIJt1N6J-8" value="任务 003 - 删除字符" style="swimlane;startSize=20;horizontal=0;html=1;rounded=1;shadow=0;glass=0;sketch=0;fontSize=11;fontColor=#0000FF;" parent="cL1KN3lu_xGNWIJt1N6J-5" vertex="1" collapsed="1">
+          <mxGeometry y="230" width="480" height="30" as="geometry">
+            <mxRectangle y="80" width="480" height="220" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
